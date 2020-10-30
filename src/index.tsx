@@ -50,7 +50,7 @@ const LicensePlate = ({
               fontSize: handleCountryCodeSize()
             }}
           >
-            {countryCode}
+            {countryCode.substring(0, 3)}
           </h1>
         </div>
       </div>

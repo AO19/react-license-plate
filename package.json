@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A library for displaying license plates",
   "author": "AO19",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "AO19/react-license-plate",
   "main": "dist/index.js",
   "engines": {

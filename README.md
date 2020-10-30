@@ -25,13 +25,13 @@ interface ILicensePlateProps {
 }
 ```
 
-| Prop             | Default |   Value |
-| ---------------- | :-----: | ------: |
-| plateColor       |  #fff   |     HEX |
-| countryCode      |         | Letters |
-| countryCodeColor |  #fff   |     HEX |
-| plateId          |         |    Text |
-| height           |         |      px |
+| Prop             | Default |             Value |
+| ---------------- | :-----: | ----------------: |
+| plateColor       |  #fff   |               HEX |
+| countryCode      |         | max. 3 characters |
+| countryCodeColor |  #fff   |               HEX |
+| plateId          |         |              Text |
+| height           |         |                px |
 
 ## Examples
 
