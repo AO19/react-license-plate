@@ -25,6 +25,14 @@ interface ILicensePlateProps {
 }
 ```
 
+| Prop             | Default |   Value |
+| ---------------- | :-----: | ------: |
+| plateColor       |  #fff   |     HEX |
+| countryCode      |         | Letters |
+| countryCodeColor |  #fff   |     HEX |
+| plateId          |         |    Text |
+| height           |         |      px |
+
 ## Examples
 
 Code:
@@ -40,3 +48,15 @@ Code:
 ```
 
 Result:
+
+![Example One](./images/exampleGermany.jpg)
+
+Code:
+
+```js
+<LicensePlate countryCode="D" plateId="KA-PA 777" height={150} />
+```
+
+Result:
+
+![Example One](./images/exampleNetherlands.jpg)
