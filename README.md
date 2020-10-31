@@ -38,13 +38,7 @@ interface ILicensePlateProps {
 Code:
 
 ```js
-<LicensePlate
-  plateColor="#fff"
-  countryCode="D"
-  countryCodeColor="#fff"
-  plateId="KA-PA 777"
-  height={150}
-/>
+<LicensePlate countryCode="D" plateId="KA-PA 777" height={150} />
 ```
 
 Result:
@@ -54,9 +48,14 @@ Result:
 Code:
 
 ```js
-<LicensePlate countryCode="D" plateId="KA-PA 777" height={150} />
+<LicensePlate
+  plateColor="orange"
+  countryCode="NL"
+  plateId="KA-PA 777"
+  height={150}
+/>
 ```
 
 Result:
 
-![Example One](./images/exampleNetherlands.jpg)
+![Example Two](./images/exampleNetherlands.jpg)
